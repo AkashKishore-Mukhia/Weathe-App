@@ -1,0 +1,118 @@
+
+body {
+  display: flex;
+  justify-content: center;
+  box-sizing: border-box;
+  font-family: monospace;
+  background-image: url('./assets/pexels-maxime-francis-2246476.jpg');
+  background-size: cover;
+  height: 100vh;
+}
+
+.container {
+  height: 30rem;
+  width: 25rem;
+  padding: 10px;
+  background-color: rgba(36, 38, 38, 0.81);
+  position: relative;
+  margin-top: 10%;
+  border: 1px solid black;
+  border-radius: 5px;
+  display: flex;
+  /* align-content: flex-start; */
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  color: white;
+  border-radius: 10px;
+}
+
+.search-btn-container {
+  /* margin-top: 50px; */
+}
+
+.search-bar {
+  border-radius: 20px;
+  border: none;
+  outline: none;
+  font-weight: bold;
+  padding: 5px;
+  padding-left: 10px;
+  background-color: rgba(223, 241, 241, 0.734);
+  color: black;
+}
+
+.btn {
+  background-color: transparent;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+#image {
+  object-fit: contain;
+  margin-top: 2rem;
+  display: block;
+  position: relative;
+  left: 35%;
+  height: 4rem;
+  width: 4rem;
+  border-radius: 30%;
+}
+
+.description {
+  margin: 0;
+  text-transform: capitalize;
+  padding: 10px;
+}
+
+#temp {
+  margin: 20px auto 20px auto;
+  font-size: 4rem;
+  padding-right: 1rem;
+}
+
+.city-name {
+  font-size: 1rem;
+}
+
+h1 {
+  display: inline-block;
+}
+
+.city-name > span {
+  color: rgb(53, 151, 238);
+  margin: 0;
+  flex-wrap: wrap;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+
+}
+
+.inner-flex {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 1rem;
+  padding-top: 0;
+}
+
+.icon-description {
+  display: flex;
+  margin: 0;
+}
+
+.icon-img {
+  object-fit: contain;
+  height: 40px;
+  width: 40px;
+  background-color: white;
+  border-radius: 50%;
+}
+
+.humidity .wind {
+  font-size: 0.5rem;
+  font-weight: bold;
+}
